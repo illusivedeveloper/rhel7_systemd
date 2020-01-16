@@ -1,8 +1,8 @@
-docker build -t test rhel7init_systemd/
+1. docker build -t rhel7_systemd:ver1 .
 
-docker container run --privileged -d -v /sys/fs/cgroup:/sys/fs/cgroup test
+2. docker container run --privileged -d -v /sys/fs/cgroup:/sys/fs/cgroup rhel7_systemd:ver1
 
-docker exec priceless_sanderson systemctl status
+3. docker exec container_name systemctl status
 
-docker exec -it priceless_sanderson  /bin/bash
+4. docker exec -it container_name  /bin/bash
 
