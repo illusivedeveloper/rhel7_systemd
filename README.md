@@ -2,7 +2,7 @@
 
 Working rhel7 with systemd utility.
 
-A complete descriptive of RHEL7 systemd enabled image is given here: [RHEL_Systemd_Docker_Image](https://docs.google.com/document/d/14PJCiGFn_gwTFs48UOpke5w5E3LPl-LrN0lgBdGs2mI/edit?usp=sharing)
+A complete descriptive of RHEL7 systemd enabled image is given here: [RHEL_Systemd_Docker_Image](https://docs.google.com/document/d/1CSOgxJERJECF4Se7aSMI9w3_ipMvr4jVlCx_Wweoa9g/edit?usp=sharing)
 
 Used rhel7 ubi repos.
 Steps:
