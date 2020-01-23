@@ -20,7 +20,7 @@ Steps:
 > $ docker exec -it container_name  /bin/bash
 
 
-Similar thing can done with rhel7_init ubi image for non OCI-systemd-hooks. 
+Similar thing can done with '''rhel7_init or ubi-init'' images for non OCI-systemd-hooks. 
 Run image using following command:
 > $ docker container run -d -P --tmpfs /run --tmpfs /tmp -v /sys/fs/cgroup:/sys/fs/cgroup image_name
 
